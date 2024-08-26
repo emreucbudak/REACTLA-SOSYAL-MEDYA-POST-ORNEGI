@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.header p {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.form {
+    width: 70vw;
+    background-color: blue;
+    height: 30vh;
+}
+.formdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    width: 10vw;
+    height: 10vh;
+    object-fit: contain;
+    float: left;
+    margin-top: 2vh;
+    margin-left: -2vw;
+}
+.input {
+    margin-top: 2vh;
+    width: 60vw;
+    height: 10vh;
+    margin-left: -2vw;
+    border-radius: 8px;
+}
+.resimlink {
+    width: 60vw;
+    height: 5vh;
+    margin-left: 6vw;
+    margin-top: 2vh;
+    border-radius: 8px;
+}
+.paylas {
+    float: right;
+    margin-right: 4.5vw;
+    margin-top: 2vh;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 5vw;
+    height: 5vh;
+}
+.showPost {
+    width: 70vw;
+    height: 70vh;
+    background-color: blue;
+    border-radius: 5px;
+    margin-top: 5vh;
+}
+.logomsu {
+    width: 10vw;
+    height: 10vh;
+    object-fit: contain;
+    margin-top: 2vh;
+    margin-left: -4vh;
+}
+.information {
+    display: flex;
+    flex-direction: row;
+
+}
+.kapsa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+
+
+}
+.gonder {
+    margin-left: -2vw;
+    margin-top: 4vh;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+.postDesc img {
+    width: 70vw;
+    height: 60vh;
+    object-fit: cover;
+}
+.postDesc h2 {
+    margin-left: 6vw;
+    font-style: italic;
+    margin-top: -5vh;
+}
